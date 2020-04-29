@@ -107,6 +107,7 @@
             this.buttonExit.TabIndex = 5;
             this.buttonExit.Text = "Выход";
             this.buttonExit.UseVisualStyleBackColor = true;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // textBoxLogin
             // 
@@ -121,6 +122,7 @@
             this.textBoxPassword.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBoxPassword.Location = new System.Drawing.Point(420, 296);
             this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(194, 22);
             this.textBoxPassword.TabIndex = 7;
             // 
@@ -152,6 +154,7 @@
             this.Controls.Add(this.pictureBoxSchoolCanteen);
             this.Name = "FormAuthorization";
             this.Text = "Авторизация";
+            this.Load += new System.EventHandler(this.FormAuthorization_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSchoolCanteen)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
