@@ -56,9 +56,9 @@
             // 
             this.labelGreeting.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelGreeting.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelGreeting.Location = new System.Drawing.Point(35, 130);
+            this.labelGreeting.Location = new System.Drawing.Point(0, 130);
             this.labelGreeting.Name = "labelGreeting";
-            this.labelGreeting.Size = new System.Drawing.Size(817, 99);
+            this.labelGreeting.Size = new System.Drawing.Size(886, 99);
             this.labelGreeting.TabIndex = 1;
             this.labelGreeting.Text = "Добро пожаловать в программную систему для ведения учета работы школьной столовой" +
     "\r\nПожалуйста введите логин и пароль для входа в систему";
@@ -96,6 +96,7 @@
             this.buttonInput.TabIndex = 4;
             this.buttonInput.Text = "Вход";
             this.buttonInput.UseVisualStyleBackColor = true;
+            this.buttonInput.Click += new System.EventHandler(this.buttonInput_Click);
             // 
             // buttonExit
             // 
@@ -132,7 +133,7 @@
             this.buttonInformationAboutTheDeveloper.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonInformationAboutTheDeveloper.Location = new System.Drawing.Point(12, 398);
             this.buttonInformationAboutTheDeveloper.Name = "buttonInformationAboutTheDeveloper";
-            this.buttonInformationAboutTheDeveloper.Size = new System.Drawing.Size(280, 40);
+            this.buttonInformationAboutTheDeveloper.Size = new System.Drawing.Size(335, 40);
             this.buttonInformationAboutTheDeveloper.TabIndex = 8;
             this.buttonInformationAboutTheDeveloper.Text = "Информация о разработчике";
             this.buttonInformationAboutTheDeveloper.UseVisualStyleBackColor = true;
