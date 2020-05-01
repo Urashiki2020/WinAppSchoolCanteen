@@ -70,6 +70,7 @@
             this.buttonListOfClasses.TabIndex = 9;
             this.buttonListOfClasses.Text = "Список классов";
             this.buttonListOfClasses.UseVisualStyleBackColor = true;
+            this.buttonListOfClasses.Click += new System.EventHandler(this.buttonListOfClasses_Click);
             // 
             // buttonListOfEmployees
             // 

@@ -30,5 +30,12 @@ namespace WinAppSchoolCanteen
             formAuthorization.ShowDialog();
             this.Hide();
         }
+
+        private void buttonListOfClasses_Click(object sender, EventArgs e)
+        {
+            Form formListOfClasses = new FormListOfClasses();
+            formListOfClasses.ShowDialog();
+            this.Hide();
+        }
     }
 }
