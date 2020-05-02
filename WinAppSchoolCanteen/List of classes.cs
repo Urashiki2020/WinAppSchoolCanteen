@@ -29,7 +29,7 @@ namespace WinAppSchoolCanteen
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
-            list_of_classesTableAdapter.Update(schoolCanteenDataSet);
+            list_of_classesTableAdapter.Update(schoolCanteenDataSet);//Обновление данных в базе
             MessageBox.Show("Изменения сохранены в базе данных");
         }
 

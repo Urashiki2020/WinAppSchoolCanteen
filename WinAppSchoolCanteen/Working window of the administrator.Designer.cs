@@ -94,6 +94,7 @@
             this.buttonEmployeeWorkSchedule.TabIndex = 11;
             this.buttonEmployeeWorkSchedule.Text = "График работы сотрудников";
             this.buttonEmployeeWorkSchedule.UseVisualStyleBackColor = true;
+            this.buttonEmployeeWorkSchedule.Click += new System.EventHandler(this.buttonEmployeeWorkSchedule_Click);
             // 
             // FormWorkingWindowOfTheAdministrator
             // 

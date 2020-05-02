@@ -15,6 +15,8 @@ namespace WinAppSchoolCanteen
         public FormListOfEmployees()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;//Что бы форма отображалась в центре экрана при запуске
+            this.BackColor = Color.FromArgb(255, 255, 255);//Цвет фона белый
         }
 
         private void FormListOfEmployees_Load(object sender, EventArgs e)
@@ -33,7 +35,7 @@ namespace WinAppSchoolCanteen
 
         private void buttonSave1_Click(object sender, EventArgs e)
         {
-            list_of_employeesTableAdapter.Update(schoolCanteenDataSet);
+            list_of_employeesTableAdapter.Update(schoolCanteenDataSet);//Обновление данных в базе
             MessageBox.Show("Изменения сохранены в базе данных");
         }
 

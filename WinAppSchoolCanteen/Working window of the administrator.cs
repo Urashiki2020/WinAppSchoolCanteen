@@ -45,5 +45,12 @@ namespace WinAppSchoolCanteen
             this.Hide();
 
         }
+
+        private void buttonEmployeeWorkSchedule_Click(object sender, EventArgs e)
+        {
+            Form formEmployeeWorkSchedule = new FormEmployeeWorkSchedule();
+            formEmployeeWorkSchedule.ShowDialog();
+            this.Hide();
+        }
     }
 }
