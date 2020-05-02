@@ -53,6 +53,12 @@
     <Compile Include="Authorization.Designer.cs">
       <DependentUpon>Authorization.cs</DependentUpon>
     </Compile>
+    <Compile Include="List of employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="List of employees.Designer.cs">
+      <DependentUpon>List of employees.cs</DependentUpon>
+    </Compile>
     <Compile Include="List of classes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="List of classes.resx">
       <DependentUpon>List of classes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="List of employees.resx">
+      <DependentUpon>List of employees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Working window of the employee.resx">
       <DependentUpon>Working window of the employee.cs</DependentUpon>

@@ -88,7 +88,7 @@
             // 
             // buttonInput
             // 
-            this.buttonInput.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonInput.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonInput.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonInput.Location = new System.Drawing.Point(256, 352);
             this.buttonInput.Name = "buttonInput";
@@ -100,7 +100,7 @@
             // 
             // buttonExit
             // 
-            this.buttonExit.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonExit.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonExit.Location = new System.Drawing.Point(538, 352);
             this.buttonExit.Name = "buttonExit";
@@ -129,7 +129,7 @@
             // 
             // buttonInformationAboutTheDeveloper
             // 
-            this.buttonInformationAboutTheDeveloper.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonInformationAboutTheDeveloper.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonInformationAboutTheDeveloper.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonInformationAboutTheDeveloper.Location = new System.Drawing.Point(12, 398);
             this.buttonInformationAboutTheDeveloper.Name = "buttonInformationAboutTheDeveloper";

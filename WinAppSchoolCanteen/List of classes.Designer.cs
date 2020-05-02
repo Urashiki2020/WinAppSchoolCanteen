@@ -65,6 +65,9 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -121,7 +124,7 @@
             // 
             // buttonBack2
             // 
-            this.buttonBack2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonBack2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonBack2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonBack2.Location = new System.Drawing.Point(550, 346);
             this.buttonBack2.Name = "buttonBack2";
@@ -145,6 +148,7 @@
             // 
             // textBoxSearch
             // 
+            this.textBoxSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxSearch.Location = new System.Drawing.Point(477, 146);
             this.textBoxSearch.Name = "textBoxSearch";
             this.textBoxSearch.Size = new System.Drawing.Size(180, 22);
@@ -153,7 +157,7 @@
             // 
             // buttonToFind
             // 
-            this.buttonToFind.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonToFind.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonToFind.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonToFind.Location = new System.Drawing.Point(498, 174);
             this.buttonToFind.Name = "buttonToFind";
@@ -165,7 +169,7 @@
             // 
             // buttonDisplayAll
             // 
-            this.buttonDisplayAll.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonDisplayAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonDisplayAll.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonDisplayAll.Location = new System.Drawing.Point(477, 220);
             this.buttonDisplayAll.Name = "buttonDisplayAll";
@@ -177,7 +181,7 @@
             // 
             // buttonRefresh
             // 
-            this.buttonRefresh.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonRefresh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonRefresh.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonRefresh.Location = new System.Drawing.Point(477, 266);
             this.buttonRefresh.Name = "buttonRefresh";

@@ -50,7 +50,7 @@
             // 
             // buttonBack
             // 
-            this.buttonBack.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonBack.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonBack.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonBack.Location = new System.Drawing.Point(360, 401);
             this.buttonBack.Name = "buttonBack";
@@ -82,6 +82,7 @@
             this.buttonListOfEmployees.TabIndex = 10;
             this.buttonListOfEmployees.Text = "Список сотрудников";
             this.buttonListOfEmployees.UseVisualStyleBackColor = true;
+            this.buttonListOfEmployees.Click += new System.EventHandler(this.buttonListOfEmployees_Click);
             // 
             // buttonEmployeeWorkSchedule
             // 

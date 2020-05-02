@@ -37,5 +37,13 @@ namespace WinAppSchoolCanteen
             formListOfClasses.ShowDialog();
             this.Hide();
         }
+
+        private void buttonListOfEmployees_Click(object sender, EventArgs e)
+        {
+            Form formListOfEmployees = new FormListOfEmployees();
+            formListOfEmployees.ShowDialog();
+            this.Hide();
+
+        }
     }
 }

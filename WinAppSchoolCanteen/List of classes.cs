@@ -43,7 +43,7 @@ namespace WinAppSchoolCanteen
         private void buttonDelete_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.RemoveAt(dataGridView1.CurrentCell.RowIndex);//Удаление записи
-            list_of_classesTableAdapter.Update(schoolCanteenDataSet);
+            list_of_classesTableAdapter.Update(schoolCanteenDataSet);//Обновление данных в базе
             MessageBox.Show("Запись удалена из базы данных");
         }
 

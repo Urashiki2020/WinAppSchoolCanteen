@@ -50,7 +50,7 @@
             // 
             // buttonBack1
             // 
-            this.buttonBack1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.buttonBack1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonBack1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonBack1.Location = new System.Drawing.Point(360, 401);
             this.buttonBack1.Name = "buttonBack1";
