@@ -37,5 +37,12 @@ namespace WinAppSchoolCanteen
             formDiningRoomMenu.ShowDialog();
             this.Hide();
         }
+
+        private void buttonTheReportOfTheSchoolCafeteria_Click(object sender, EventArgs e)
+        {
+            Form formTheReportOfTheSchoolCafeteria = new FormTheReportOfTheSchoolCafeteria();
+            formTheReportOfTheSchoolCafeteria.ShowDialog();
+            this.Hide();
+        }
     }
 }

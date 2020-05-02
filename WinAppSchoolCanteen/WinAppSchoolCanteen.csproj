@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,6 +65,12 @@
     </Compile>
     <Compile Include="Dining room menu.Designer.cs">
       <DependentUpon>Dining room menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The report of the school cafeteria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The report of the school cafeteria.Designer.cs">
+      <DependentUpon>The report of the school cafeteria.cs</DependentUpon>
     </Compile>
     <Compile Include="List of employees.cs">
       <SubType>Form</SubType>
@@ -110,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="List of employees.resx">
       <DependentUpon>List of employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The report of the school cafeteria.resx">
+      <DependentUpon>The report of the school cafeteria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Working window of the employee.resx">
       <DependentUpon>Working window of the employee.cs</DependentUpon>
