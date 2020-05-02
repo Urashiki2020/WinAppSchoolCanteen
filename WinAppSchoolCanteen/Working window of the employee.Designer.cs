@@ -70,6 +70,7 @@
             this.buttonDiningRoomMenu.TabIndex = 9;
             this.buttonDiningRoomMenu.Text = "Меню столовой";
             this.buttonDiningRoomMenu.UseVisualStyleBackColor = true;
+            this.buttonDiningRoomMenu.Click += new System.EventHandler(this.buttonDiningRoomMenu_Click);
             // 
             // buttonEmployeeWorkSchedule1
             // 

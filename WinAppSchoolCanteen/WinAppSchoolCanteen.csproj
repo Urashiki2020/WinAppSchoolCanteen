@@ -59,6 +59,12 @@
     <Compile Include="Employee work schedule.Designer.cs">
       <DependentUpon>Employee work schedule.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dining room menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dining room menu.Designer.cs">
+      <DependentUpon>Dining room menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="List of employees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="Authorization.resx">
       <DependentUpon>Authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dining room menu.resx">
+      <DependentUpon>Dining room menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employee work schedule.resx">
       <DependentUpon>Employee work schedule.cs</DependentUpon>
