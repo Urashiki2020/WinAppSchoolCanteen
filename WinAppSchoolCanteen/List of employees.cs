@@ -53,7 +53,7 @@ namespace WinAppSchoolCanteen
 
         private void buttonToFind1_Click(object sender, EventArgs e)
         {
-            listOfEmployeesBindingSource.Filter = "ФИО =\'" + textBoxSearch1.Text + "\'";
+            listOfEmployeesBindingSource.Filter = "[ФИО] =\'" + textBoxSearch1.Text + "\'";
         }
 
         private void buttonDisplayAll1_Click(object sender, EventArgs e)

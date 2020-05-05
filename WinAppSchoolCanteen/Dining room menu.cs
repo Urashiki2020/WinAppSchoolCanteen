@@ -48,7 +48,7 @@ namespace WinAppSchoolCanteen
 
         private void buttonToFind2_Click(object sender, EventArgs e)
         {
-            diningRoomMenuBindingSource.Filter = "Наименование блюда =\'" + textBoxSearch2.Text + "\'";
+            diningRoomMenuBindingSource.Filter = "[Наименование блюда] =\'" + textBoxSearch2.Text + "\'";
         }
 
         private void buttonDisplayAll2_Click(object sender, EventArgs e)

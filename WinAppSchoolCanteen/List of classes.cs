@@ -50,7 +50,7 @@ namespace WinAppSchoolCanteen
         private void buttonToFind_Click(object sender, EventArgs e)
         {
             //Устанавливаем фильтр в listOfClassesBindingSource
-            listOfClassesBindingSource.Filter = "id_classes =\'" + textBoxSearch.Text + "\'";
+            listOfClassesBindingSource.Filter = "[Номер класса] =\'" + textBoxSearch.Text + "\'";
         }
 
         private void buttonDisplayAll_Click(object sender, EventArgs e)

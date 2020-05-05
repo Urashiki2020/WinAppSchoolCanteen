@@ -48,7 +48,7 @@ namespace WinAppSchoolCanteen
 
         private void buttonToFind3_Click(object sender, EventArgs e)
         {
-            theReportOfTheSchoolCafeteriaBindingSource.Filter = "Количество посещаемых учеников =\'" + textBoxSearch3.Text + "\'";
+            theReportOfTheSchoolCafeteriaBindingSource.Filter = "[Количество посещаемых учеников] =\'" + textBoxSearch3.Text + "\'";
         }
 
         private void buttonDisplayAll3_Click(object sender, EventArgs e)
