@@ -42,7 +42,7 @@
             // 
             this.buttonBack7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonBack7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack7.Location = new System.Drawing.Point(806, 398);
+            this.buttonBack7.Location = new System.Drawing.Point(836, 398);
             this.buttonBack7.Name = "buttonBack7";
             this.buttonBack7.Size = new System.Drawing.Size(140, 40);
             this.buttonBack7.TabIndex = 28;
@@ -55,7 +55,7 @@
             this.labelInformationAboutTheDeveloper.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelInformationAboutTheDeveloper.AutoSize = true;
             this.labelInformationAboutTheDeveloper.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelInformationAboutTheDeveloper.Location = new System.Drawing.Point(558, 53);
+            this.labelInformationAboutTheDeveloper.Location = new System.Drawing.Point(573, 53);
             this.labelInformationAboutTheDeveloper.Name = "labelInformationAboutTheDeveloper";
             this.labelInformationAboutTheDeveloper.Size = new System.Drawing.Size(145, 29);
             this.labelInformationAboutTheDeveloper.TabIndex = 29;
@@ -66,7 +66,7 @@
             this.labelInformationAboutTheProgram.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelInformationAboutTheProgram.AutoSize = true;
             this.labelInformationAboutTheProgram.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelInformationAboutTheProgram.Location = new System.Drawing.Point(558, 195);
+            this.labelInformationAboutTheProgram.Location = new System.Drawing.Point(573, 195);
             this.labelInformationAboutTheProgram.Name = "labelInformationAboutTheProgram";
             this.labelInformationAboutTheProgram.Size = new System.Drawing.Size(153, 29);
             this.labelInformationAboutTheProgram.TabIndex = 30;
@@ -76,7 +76,7 @@
             // 
             this.textBoxInformationAboutTheDeveloper.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBoxInformationAboutTheDeveloper.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxInformationAboutTheDeveloper.Location = new System.Drawing.Point(380, 85);
+            this.textBoxInformationAboutTheDeveloper.Location = new System.Drawing.Point(395, 85);
             this.textBoxInformationAboutTheDeveloper.Multiline = true;
             this.textBoxInformationAboutTheDeveloper.Name = "textBoxInformationAboutTheDeveloper";
             this.textBoxInformationAboutTheDeveloper.Size = new System.Drawing.Size(526, 107);
@@ -88,10 +88,10 @@
             // 
             this.textBoxInformationAboutTheProgram.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBoxInformationAboutTheProgram.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxInformationAboutTheProgram.Location = new System.Drawing.Point(357, 227);
+            this.textBoxInformationAboutTheProgram.Location = new System.Drawing.Point(341, 227);
             this.textBoxInformationAboutTheProgram.Multiline = true;
             this.textBoxInformationAboutTheProgram.Name = "textBoxInformationAboutTheProgram";
-            this.textBoxInformationAboutTheProgram.Size = new System.Drawing.Size(585, 129);
+            this.textBoxInformationAboutTheProgram.Size = new System.Drawing.Size(643, 129);
             this.textBoxInformationAboutTheProgram.TabIndex = 32;
             this.textBoxInformationAboutTheProgram.Text = resources.GetString("textBoxInformationAboutTheProgram.Text");
             // 
@@ -109,7 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(958, 450);
+            this.ClientSize = new System.Drawing.Size(988, 450);
             this.Controls.Add(this.pictureBoxInformationAboutTheDeveloper);
             this.Controls.Add(this.textBoxInformationAboutTheProgram);
             this.Controls.Add(this.textBoxInformationAboutTheDeveloper);
