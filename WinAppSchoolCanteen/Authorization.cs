@@ -72,5 +72,12 @@ namespace WinAppSchoolCanteen
                 connection.Close();
             }
         }
+
+        private void buttonInformationAboutTheDeveloper_Click(object sender, EventArgs e)
+        {
+            Form formInformationAboutTheDeveloper = new FormInformationAboutTheDeveloper();
+            formInformationAboutTheDeveloper.ShowDialog();
+            this.Hide();
+        }
     }
 }

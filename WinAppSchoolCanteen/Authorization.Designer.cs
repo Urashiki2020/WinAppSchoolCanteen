@@ -137,6 +137,7 @@
             this.buttonInformationAboutTheDeveloper.TabIndex = 8;
             this.buttonInformationAboutTheDeveloper.Text = "Информация о разработчике";
             this.buttonInformationAboutTheDeveloper.UseVisualStyleBackColor = true;
+            this.buttonInformationAboutTheDeveloper.Click += new System.EventHandler(this.buttonInformationAboutTheDeveloper_Click);
             // 
             // FormAuthorization
             // 

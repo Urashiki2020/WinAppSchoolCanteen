@@ -66,6 +66,12 @@
     <Compile Include="Dining room menu.Designer.cs">
       <DependentUpon>Dining room menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Information about the developer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Information about the developer.Designer.cs">
+      <DependentUpon>Information about the developer.cs</DependentUpon>
+    </Compile>
     <Compile Include="The report of the school cafeteria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Employee work schedule.resx">
       <DependentUpon>Employee work schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information about the developer.resx">
+      <DependentUpon>Information about the developer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="List of classes.resx">
       <DependentUpon>List of classes.cs</DependentUpon>
